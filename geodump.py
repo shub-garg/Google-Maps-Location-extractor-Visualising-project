@@ -1,7 +1,7 @@
 import sqlite3
 import json
 import codecs
-import geocode
+import geoload
 
 conn = sqlite3.connect('geodata.sqlite')
 cur = conn.cursor()
